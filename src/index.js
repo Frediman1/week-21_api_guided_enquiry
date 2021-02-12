@@ -1,12 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mysql = require('msql12');
+const mysql = require('mysql');
 
 // Mysql Connections
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: 'Fredricklove1',
     database: 'todo'
 });
 // red flag for mysql connection
